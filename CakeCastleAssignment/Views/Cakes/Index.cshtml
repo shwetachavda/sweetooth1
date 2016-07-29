@@ -4,10 +4,9 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+<!--
 <h2>Index</h2>
-
-<p>
+  <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 <table class="table">
@@ -32,3 +31,87 @@
 }
 
 </table>
+    
+
+<div class="col-xs-6 col-md-4">
+    <table class="table table-hover">
+        <tr>
+            <td>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            </td>
+            <td>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+            </td>
+            <td>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+            </td>
+
+        </tr>
+    </table>
+    </div>
+    -->
+
+<div class="col-md-10 col-md-offset-1">
+    <h2> Menu</h2>
+    <hr  class="small"/>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Cake Name</th>
+                <th>Description</th>
+                <th>Price Range</th>
+                <th> Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sponge Cake</td>
+                <td>
+                    Our Sponge cake is made from flour, sugar, and eggs, and is sometimes leavened with baking powder.<br />
+                    It has a firm, yet well aerated structure, with moisture.
+                </td>
+                <td>$140 to $180</td>
+                <td><img src="~/Assets/Images/cakes0.jpg" width="80" height="80" class="img-rounded" style="float: left" /></td>
+            </tr>
+            <tr>
+                <td>Fruit Cake</td>
+                <td>
+                    Fruitcake is a cake made with chopped candied fruit and/or dried fruit, nuts, and spices, and soaked in spirits.<br />
+                    A cake that simply has fruit in it as an ingredient can also be colloquially called a fruit cake.
+                </td>
+                <td>$150 to $180</td>
+                <td><img src="~/Assets/Images/cakef0.jpg" width="80" height="80" class="img-rounded" style="float: left" /></td>
+            </tr>
+            <tr>
+                <td>Theme Cake</td>
+                <td>Based on the people choice.</td>
+                <td>$130 to $200</td>
+                <td><img src="~/Assets/Images/caket3.jpg" width="80" height="80" class="img-rounded" style="float: left" /></td>
+            </tr>
+            <tr>
+                <td>Chocolate Cake</td>
+                <td>Chocolate cake is a cake flavored with melted chocolate, cocoa powder, or sometimes both.</td>
+                <td>$150 to $200</td>
+                <td><img src="~/Assets/Images/cake10.jpg" width="80" height="80" class="img-rounded" style="float: left" /></td>
+            </tr>
+            <tr>
+                <td>Coffee Cake</td>
+                <td>Our Coffee cake, is often cinnamon-flavored, with a drizzled white icing or crumb topping, and usually eaten with coffee.</td>
+                <td>$100 to $150</td>
+                <td><img src="~/Assets/Images/cakec0.jpg" width="80" height="80" class="img-rounded" style="float: left" /></td>
+            </tr>
+            <tr>
+                <td>Wedding Cake</td>
+                <td>A wedding cake is the traditional cake served at wedding receptions following dinner.</td>
+                <td>$180 to $250</td>
+                <td><img src="~/Assets/Images/cakew0.jpg" width="80" height="80" class="img-rounded" style="float: left" /></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

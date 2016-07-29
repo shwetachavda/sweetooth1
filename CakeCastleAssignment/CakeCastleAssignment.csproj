@@ -200,10 +200,16 @@
   <ItemGroup>
     <Content Include="Assets\Images\cake0.jpg" />
     <Content Include="Assets\Images\cake1.jpg" />
+    <Content Include="Assets\Images\cake10.jpg" />
     <Content Include="Assets\Images\cake2.jpg" />
     <Content Include="Assets\Images\cake3.jpg" />
     <Content Include="Assets\Images\cake4.jpeg" />
     <Content Include="Assets\Images\cake6.jpg" />
+    <Content Include="Assets\Images\cakec0.jpg" />
+    <Content Include="Assets\Images\cakef0.jpg" />
+    <Content Include="Assets\Images\cakes0.jpg" />
+    <Content Include="Assets\Images\caket3.jpg" />
+    <Content Include="Assets\Images\cakew0.jpg" />
     <Content Include="Assets\Images\logo2.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
