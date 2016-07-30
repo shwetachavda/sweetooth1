@@ -250,3 +250,14 @@ $('.carousel').carousel({
     interval: 6000,
     pause: "false"
 });
+
+/**-------------------------------------------------------------------------------------------------------
+$(document).ready(function () {
+    //FANCYBOX
+    //https://github.com/fancyapps/fancyBox
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+});
+--*/

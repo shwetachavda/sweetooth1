@@ -119,3 +119,17 @@ font-family:  "Marck Script";
  right: -190px;
  }
  
+   /** menu page
+   div#fancybox-outer, img#fancybox-img, div#fancybox-wrap, a#fancybox-right {
+width: 200px;
+height: 200px;
+   }
+   div#fancybox-outer, img#fancybox-img, div#fancybox-wrap, a#fancybox-right ,div#fancybox-content{
+       width: 200px;
+height: 200px;
+   }
+   .gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}*/
