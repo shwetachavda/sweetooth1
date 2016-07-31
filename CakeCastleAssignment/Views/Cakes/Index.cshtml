@@ -1,60 +1,120 @@
 ﻿@model IEnumerable<CakeCastleAssignment.Models.Cake>
- 
-<div class="col-md-10 col-md-offset-1">
-    <h2> Menu</h2>
-    <hr  class="small"/>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th>Cake Name</th>
-                <th>Description</th>
-                <th>Price Range</th>
-                <th> Image</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>@Html.ActionLink("Sponge Cake", "Index", "SpongeCakes") </td>
-                <td>
-                    Our Sponge cake is made from flour, sugar, and eggs, and is sometimes leavened with baking powder.<br />
-                    It has a firm, yet well aerated structure, with moisture.
-                </td>
-                <td>$140 to $180</td>
-                <td><img class="img-responsive" src="~/Assets/Images/cakes0.jpg" width="80" height="80"  style="float: left" /></td>
-            </tr>
-            <tr>
-                <td>@Html.ActionLink("Fruit Cake", "Index", "FruitCakes") </td>
-                <td>
-                    Fruitcake is a cake made with chopped candied fruit and/or dried fruit, nuts, and spices, and soaked in spirits.<br />
-                    A cake that simply has fruit in it as an ingredient can also be colloquially called a fruit cake.
-                </td>
-                <td>$150 to $180</td>
-                <td><img class="fancybox" src="~/Assets/Images/cakef0.jpg" width="80" height="80"  style="float: left" /></td>
-            </tr>
-            <tr>
-                <td>@Html.ActionLink("Theme Cake", "Index", "ThemeCakes") </td>
-                <td>Based on the people choice.</td>
-                <td>$130 to $200</td>
-                <td><img class="fancybox" src="~/Assets/Images/caket3.jpg" width="80" height="80" style="float: left" /></td>
-            </tr>
-            <tr>
-                <td>@Html.ActionLink("Chocolate Cake", "Index", "ChocolateCakes") </td>
-                <td>Chocolate cake is a cake flavored with melted chocolate, cocoa powder, or sometimes both.</td>
-                <td>$150 to $200</td>
-                <td><img class="fancybox" src="~/Assets/Images/cake10.jpg" width="80" height="80" style="float: left" /></td>
-            </tr>
-            <tr>
-                <td>@Html.ActionLink("Coffee Cake", "Index", "CoffeeCakes") </td>
-                <td>Our Coffee cake, is often cinnamon-flavored, with a drizzled white icing or crumb topping, and usually eaten with coffee.</td>
-                <td>$100 to $150</td>
-                <td><img class="fancybox" src="~/Assets/Images/cakec0.jpg" width="80" height="80" style="float: left" /></td>
-            </tr>
-            <tr>
-                <td>@Html.ActionLink("Wedding Cake", "Index", "WeddingCakes") </td>
-                <td>A wedding cake is the traditional cake served at wedding receptions following dinner.</td>
-                <td>$180 to $250</td>
-                <td><img class="fancybox" src="~/Assets/Images/cakew0.jpg" width="80" height="80"  style="float: left" /></td>
-            </tr>
-        </tbody>
-    </table>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                    <img id="img1" class="img-responsive" src="~/Assets/Images/cake9.jpg" width="255" height="223" />
+                </a>
+                <div class="caption">
+                    <h5> Sponge Cake</h5>
+                    <p>
+                        Our Sponge cake is made from flour, sugar, and eggs, and is sometimes leavened with baking powder.<br />
+                        It has a firm, yet well aerated structure, with moisture.
+                    </p>
+                    <p> <b> $140 to $180 </b></p>
+                    <p>@Html.ActionLink("Click here to view more...", "Index", "SpongeCakes") </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                    <img id="img1" class="fancybox" src="~/Assets/Images/cakef2.jpg" width="355" height="223" />
+                </a>
+                <div class="caption">
+                    <h5> Fruit Cake </h5>
+                    <p>
+                        Fruitcake is a cake made with chopped candied fruit and/or dried fruit, nuts, and spices, and soaked in spirits.<br />
+                        A cake that simply has fruit in it as an ingredient can also be colloquially called a fruit cake.
+                    </p>
+                    <p> <b>$150 to $180 </b> </p>
+                    <p> @Html.ActionLink("Click here to view more...", "Index", "FruitCakes") </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                    <img id="img1" class="fancybox" src="~/Assets/Images/caket2.jpg" width="300" height="223" />
+                </a>
+                <div class="caption">
+                    <h5> Theme Cake</h5>
+                    <p>
+                        Based on the people choice we make the cake.<br />
+                        For Exampe: Underwater Theme, Car Theme, Football fever, Mickey Mouse Theme, 50's Theme.
+                        What's your Theme?
+                    </p>
+                    <p> <b> $130 to $200 </b> </p>
+                    <p> @Html.ActionLink("Click here to view more...", "Index", "ThemeCakes") </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                    <img id="img1" class="fancybox" src="~/Assets/Images/cake11.jpg" width="335" height="180" />
+                </a>
+                <h5> Chocolate Cake</h5>
+                <div class="caption">
+                    <p> Chocolate cake is a cake flavored with melted chocolate, cocoa powder, or sometimes both.</p>
+                    <p><b> $150 to $200 </b></p>
+                    <p> @Html.ActionLink("Click here to view more...", "Index", "ChocolateCakes") </p>
+                    <hr class="hidden-lg">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                    <img id="img1" class="fancybox" src="~/Assets/Images/cakec0.jpg" width="355" height="223" />
+                </a>
+                <h5>Coffee Cake </h5>
+                <div class="caption">
+                    <p>Our Coffee cake, is often cinnamon-flavored, with a drizzled white icing or crumb topping, and usually eaten with coffee.</p>
+                    <p> <b> $100 to $150 </b> </p>
+                    <p>@Html.ActionLink("Click here to view more...", "Index", "CoffeeCakes") </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="#" id="link1" data-toggle="modal" data-target="#myModal">
+                    <img id="img1" class="fancybox" src="~/Assets/Images/cakew3.jpg" width="255" />
+                </a>
+                <div class="caption">
+                    <h5> Wedding Cake</h5>
+                    <p>A wedding cake is the traditional cake served at wedding receptions following dinner. </p>
+                    <p><b> $180 to $250 </b></p>
+                    <p> @Html.ActionLink("Click here to view more...", "Index", "WeddingCakes") </p>
+                    <hr class="hidden-lg">
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body" id="showImg">
+                <!-- here we create the image dynamically -->
+            </div>
+        </div>
+
+    </div>
+</div>
+

@@ -94,7 +94,7 @@ footer {
      font-weight: 700;
      padding-left: 420px;
  }
-    h5{
+    h5#about, h5#about1{
      font-family:  Forte;
  color: black;
  font-size: 25px;
@@ -133,3 +133,34 @@ height: 200px;
     display: inline-block;
     margin-top: 20px;
 }*/
+
+   /***-------------------- Menu page*/
+   .my-img a {
+    display: inline-block;
+    margin: 10px;
+    border: 2px solid #CCC;
+}
+.my-img a:hover {
+    border: 2px solid #45AFFF;
+}    
+.modal-lg {
+    width: 25%;
+}
+.modal-body {
+    overflow: auto;
+    max-height: auto;
+}
+h5{
+    font-size: 25px;
+    color: darkblue;
+    font-family: Chewy;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4F2412;
+    font-size: 18px;
+}
+a{
+    color : indigo;
+    font-size: 19px;
+}
