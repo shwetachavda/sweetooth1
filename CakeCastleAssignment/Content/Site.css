@@ -24,14 +24,7 @@ select,
 textarea {
     max-width: 280px;
 }
-/* Carousal*/
-h3 {
-  display: inline-block;
-  padding: 10px;
-  background: #B9121B;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
+
 
 /*navbar*/
 .full-screen {
@@ -189,4 +182,19 @@ td{
 }
 tr{
     border: 2px groove  #2C2416;
+}
+
+/**--------------------------------------*/
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
