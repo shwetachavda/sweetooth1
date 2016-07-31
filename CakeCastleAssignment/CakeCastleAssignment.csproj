@@ -210,6 +210,8 @@
     <Content Include="Assets\Images\cakef2.jpg" />
     <Content Include="Assets\Images\caket2.jpg" />
     <Content Include="Assets\Images\cakew3.jpg" />
+    <Content Include="Assets\Images\home.jpg" />
+    <Content Include="Assets\Images\home1.jpg" />
     <Content Include="Assets\Images\logo2.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />

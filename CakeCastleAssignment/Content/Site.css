@@ -184,17 +184,27 @@ tr{
     border: 2px groove  #2C2416;
 }
 
-/**--------------------------------------*/
-h3 {
-  display: inline-block;
-  padding: 10px;
-  background: #B9121B;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+/***---------------------------home Page*/
+/* Header  */
+div.header h1{
+    color: #280000;
+    font-family: Papyrus, fantasy;
+    font-size: 30px;
+    font-weight:900;
+    margin-top: 25%;
+    letter-spacing: 4px;
+}
+div.header h3 {
+      font-family:  Forte;
+  color:  black ;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 125%;
+    letter-spacing: 2px;
 }
 
-.full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+div.row img#home{
+    padding-left : 50px;
+    width: 1300px;
+    height: 900px;
 }
