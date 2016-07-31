@@ -1,4 +1,13 @@
 ﻿
+/**
+File Name: Site.css
+Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
+Website Name: http://sweetoothcake.azurewebsites.net/
+Description:  This the main css file for entire website.
+Last updated Daate: 07/31/2016
+Last updated Version: 1.0.2
+*/
+
 body {
     padding-top: 5px;
     padding-bottom: 20px;
@@ -28,32 +37,34 @@ textarea {
 
 /*navbar*/
 .full-screen {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #navbar-primary .navbar-nav {
-   /* background: #ededed  */
+    /* background: #ededed  */
     width: 100%;
     text-align: center;
 }
+
     #navbar-primary .navbar-nav li {
         display: inline-block;
         float: none;
     }
-     #navbar-primary .navbar-nav a{
-      padding-left: 30px;
-      padding-right: 30px;
-      font-size: 30px;
-      font-family: "Leckerli One";
-      color: #4B0082;
 
+    #navbar-primary .navbar-nav a {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 30px;
+        font-family: "Leckerli One";
+        color: #4B0082;
     }
-#navbar-primary .navbar-nav a:hover {
-    text-decoration: none;
-     background-color: transparent;
-}
+
+        #navbar-primary .navbar-nav a:hover {
+            text-decoration: none;
+            background-color: transparent;
+        }
 
 /*footer*/
 footer {
@@ -63,56 +74,57 @@ footer {
     color: #4B0082;
     padding-bottom: 70px;
 }
-.img{
+
+.img {
     position: relative;
     padding-left: 500px;
-  
 }
 
-  /*About */
-   p#what{
-       padding-left: 420px;
-     font-weight:400;
-     color:  #F20056;
-     font-size: 22px;
-     font-family:  "Marck Script";
-     font-weight: 700;
- }
+/**-----------------------------------------------About Page-----------------------------------------------*/
+p#what {
+    padding-left: 420px;
+    font-weight: 400;
+    color: #F20056;
+    font-size: 22px;
+    font-family: "Marck Script";
+    font-weight: 700;
+}
 
-    p#who{
-     font-weight:400;
-     color:  dodgerblue;
-     font-size: 22px;
-     font-family:  "Marck Script";
-     font-weight: 700;
-     padding-left: 420px;
- }
-    h5#about, h5#about1{
-     font-family:  Forte;
- color: black;
- font-size: 25px;
-    }
+p#who {
+    font-weight: 400;
+    color: dodgerblue;
+    font-size: 22px;
+    font-family: "Marck Script";
+    font-weight: 700;
+    padding-left: 420px;
+}
 
-   h4{
-    font-family:  Forte;
- color:  darkred;
- font-size: 25px;
- }
+h5#about, h5#about1 {
+    font-family: Forte;
+    color: black;
+    font-size: 25px;
+}
 
-   /* Contact page*/
- 
-   div#map {
-       text-align: center;
-     padding-top : 330px;
- display: inline-block;
-font-family:  "Marck Script";
- color:   #F20056;
-  font-weight: 900;
- font-size: 20px;
- right: -190px;
- }
- 
-   /** menu page
+h4 {
+    font-family: Forte;
+    color: darkred;
+    font-size: 25px;
+}
+
+/*------------------------------------------------------ Contact page------------------------------------*/
+
+div#map {
+    text-align: center;
+    padding-top: 330px;
+    display: inline-block;
+    font-family: "Marck Script";
+    color: #F20056;
+    font-weight: 900;
+    font-size: 20px;
+    right: -190px;
+}
+
+/** menu page
    div#fancybox-outer, img#fancybox-img, div#fancybox-wrap, a#fancybox-right {
 width: 200px;
 height: 200px;
@@ -127,84 +139,102 @@ height: 200px;
     margin-top: 20px;
 }*/
 
-   /***-------------------- Menu page*/
-   .my-img a {
+/***------------------------------------------- Menu page-----------------------------------------------*/
+.my-img a {
     display: inline-block;
     margin: 10px;
     border: 2px solid #CCC;
 }
-.my-img a:hover {
-    border: 2px solid #45AFFF;
-}    
+
+    .my-img a:hover {
+        border: 2px solid #45AFFF;
+    }
+
 .modal-lg {
     width: 25%;
 }
+
 .modal-body {
     overflow: auto;
     max-height: auto;
 }
-h5{
+
+h5 {
     font-size: 25px;
     color: darkblue;
     font-family: Chewy;
 }
-p{
+
+p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #4F2412;
     font-size: 18px;
 }
-a{
-    color : indigo;
+
+a {
+    color: indigo;
     font-size: 19px;
 }
 
-/**---------------- Index pages*/
-h2{
-    font-family:  Forte;
-  color:  black ;
- font-size: 30px;
-}
-hr{
-    border-top: 2px dotted #800000;
-}
-th{
-    text-align: center;
-     color:  darkblue;
-     font-family: 'Footlight MT';
- font-size: 30px;
-}
-td{
-    font-family:  "Merienda One";   
- color:   #F20056;
-  font-weight: 900;
- font-size: 15px;
-  text-align: center;
-}
-tr{
-    border: 2px groove  #2C2416;
+/**--------------------------------------------------------All the Index pages------------------------------*/
+h2 {
+    font-family: Forte;
+    color: black;
+    font-size: 30px;
 }
 
-/***---------------------------home Page*/
+hr {
+    border-top: 2px dotted #800000;
+}
+
+th {
+    text-align: center;
+    color: darkblue;
+    font-family: 'Footlight MT';
+    font-size: 30px;
+}
+
+td {
+    font-family: "Merienda One";
+    color: #F20056;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+}
+
+tr {
+    border: 2px groove #2C2416;
+}
+
+div#backtohome a{
+  font-family: 'Copperplate Gothic';
+  font-weight: 700;
+    color: darkgreen;
+    font-size: 15px;
+}
+
+/***--------------------------------------------------------Home Page-------------------------------------------*/
 /* Header  */
-div.header h1{
+div.header h1 {
     color: #280000;
     font-family: Papyrus, fantasy;
     font-size: 30px;
-    font-weight:900;
+    font-weight: 900;
     margin-top: 25%;
     letter-spacing: 4px;
 }
+
 div.header h3 {
-      font-family:  Forte;
-  color:  black ;
+    font-family: Forte;
+    color: black;
     font-size: 30px;
     font-weight: 700;
     margin-top: 125%;
     letter-spacing: 2px;
 }
 
-div.row img#home{
-    padding-left : 50px;
+div.row img#home {
+    padding-left: 50px;
     width: 1300px;
     height: 900px;
 }

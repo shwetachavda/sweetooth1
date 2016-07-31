@@ -1,5 +1,15 @@
 ﻿@model IEnumerable<CakeCastleAssignment.Models.SpongeCake>
 
+<!--
+File Name: Index.cshtml view for SpongeCakes Controller
+Author Name: Mansi Patel(200303640) & Shweta Chavda(200326347)
+Website Name: http://sweetoothcake.azurewebsites.net/
+Description:  This apge contains all different types of SpongeCakes with Description and Price which is buneled in table via foreach loop.
+Last updated Daate: 07/31/2016
+Last updated Version: 1.0.2
+-->
+
+
 <div class="col-md-10 col-md-offset-1">
     <h2> Sponge Cakes</h2>
     <hr class="small" />
@@ -30,14 +40,19 @@
                 </td>
             </tr>
         }
-
     </table>
-    </div>
-<div class="row">
-    <div class="col-md-4">
-        <br /><br /><br /><br />
-        <footer>
-            &copy; @DateTime.Now.Year - By Mansi Patel & Shweta Chavda
-        </footer>
+    <br />
+    <div id="backtohome" class="col-xs-6 col-md-4">
+        @Html.ActionLink("Go Back to Menu Page...", "Index", "Cakes")
     </div>
 </div>
+
+    <!---Footer-->
+    <div class="row">
+        <div class="col-md-4">
+            <br /><br /><br /><br />
+            <footer>
+                &copy; @DateTime.Now.Year - By Mansi Patel & Shweta Chavda
+            </footer>
+        </div>
+    </div>
