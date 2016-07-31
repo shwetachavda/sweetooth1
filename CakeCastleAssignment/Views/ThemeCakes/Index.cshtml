@@ -1,21 +1,9 @@
 ﻿@model IEnumerable<CakeCastleAssignment.Models.ThemeCake>
 
-<!--  @{
-    ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
-<h2>Index</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-    -->
-
 <div class="col-md-10 col-md-offset-1">
     <h2> Theme Cakes</h2>
     <hr class="small" />
-    <table class="table table-bordered">
+    <table class="table">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.CakeName)
@@ -26,7 +14,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.Rate)
             </th>
-            <th></th>
         </tr>
 
         @foreach (var item in Model)
@@ -41,13 +28,6 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Rate)
                 </td>
-                <!--- 
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.CakeID }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.CakeID }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.CakeID })
-                </td>
-                    -->
             </tr>
         }
 

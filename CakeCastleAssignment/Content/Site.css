@@ -164,3 +164,29 @@ a{
     color : indigo;
     font-size: 19px;
 }
+
+/**---------------- Index pages*/
+h2{
+    font-family:  Forte;
+  color:  black ;
+ font-size: 30px;
+}
+hr{
+    border-top: 2px dotted #800000;
+}
+th{
+    text-align: center;
+     color:  darkblue;
+     font-family: 'Footlight MT';
+ font-size: 30px;
+}
+td{
+    font-family:  "Merienda One";   
+ color:   #F20056;
+  font-weight: 900;
+ font-size: 15px;
+  text-align: center;
+}
+tr{
+    border: 2px groove  #2C2416;
+}
